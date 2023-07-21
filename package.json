@@ -6,6 +6,7 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
+    "@grammyjs/menu": "^1.2.1",
     "@types/node": "^20.4.2",
     "dotenv": "^16.3.1",
     "grammy": "^1.17.2",
