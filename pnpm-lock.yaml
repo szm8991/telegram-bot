@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@grammyjs/menu': ^1.2.1
   '@types/node': ^20.4.2
   dotenv: ^16.3.1
   grammy: ^1.17.2
@@ -9,6 +10,7 @@ specifiers:
   typescript: ^5.1.6
 
 dependencies:
+  '@grammyjs/menu': registry.npmmirror.com/@grammyjs/menu/1.2.1_grammy@1.17.2
   '@types/node': registry.npmmirror.com/@types/node/20.4.2
   dotenv: registry.npmmirror.com/dotenv/16.3.1
   grammy: registry.npmmirror.com/grammy/1.17.2
@@ -27,6 +29,18 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       '@jridgewell/trace-mapping': registry.npmmirror.com/@jridgewell/trace-mapping/0.3.9
+    dev: false
+
+  registry.npmmirror.com/@grammyjs/menu/1.2.1_grammy@1.17.2:
+    resolution: {integrity: sha512-0LV9A/UukfF46N0ceSqG1RbdCjhvB2u1MNHNkE7eRD3GVlffOBnR+MS2ESE9mSBleT9OjRV6imA7QZ57QBktOQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@grammyjs/menu/-/menu-1.2.1.tgz}
+    id: registry.npmmirror.com/@grammyjs/menu/1.2.1
+    name: '@grammyjs/menu'
+    version: 1.2.1
+    engines: {node: '>=12.20.0 || >=14.13.1'}
+    peerDependencies:
+      grammy: ^1.0.0
+    dependencies:
+      grammy: registry.npmmirror.com/grammy/1.17.2
     dev: false
 
   registry.npmmirror.com/@grammyjs/types/3.1.2:

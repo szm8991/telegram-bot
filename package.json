@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "ts-node bot.ts"
+    "start": "ts-node index.ts"
   },
   "devDependencies": {
     "typescript": "^5.1.6"
