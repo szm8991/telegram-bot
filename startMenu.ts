@@ -21,5 +21,3 @@ export const startMenu = new Menu<MyContext>('start-menu')
     ctx => ctx.reply(ctx.from && ctx.session.isSell ? ' Sell !' : ' Buy !')
   )
   .row()
-  // .text(' 🥱Btn 5 ', ctx => ctx.reply('Yawn !'))
-  // .text(' 😴Btn 6 ', ctx => ctx.reply('Sleep !'));
