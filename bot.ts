@@ -25,6 +25,12 @@ export function creatBot(token: string) {
       },
     },
   });
+  initSession(bot)
+  initAction(bot);
+  return bot;
+}
+
+function initSession(bot: Bot<MyContext, Api<RawApi>>){
   bot.use(
     // @ts-ignore
     session({
@@ -40,11 +46,9 @@ export function creatBot(token: string) {
       },
     })
   );
-  initBot(bot);
-  return bot;
 }
 
-function initBot(bot: Bot<MyContext, Api<RawApi>>) {
+function initAction(bot: Bot<MyContext, Api<RawApi>>) {
   bot.use(startMenu);
   const initialText = 'Hello ! Please choose check out this menu🧐 ';
   bot.command('start', async ctx => {
